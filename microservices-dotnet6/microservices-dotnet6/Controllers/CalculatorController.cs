@@ -78,7 +78,7 @@ namespace microservices_dotnet6.Controllers
             return BadRequest("Invalid Input");
         }
 
-        [HttpGet("squareRoot/{firstNumber}")]
+        [HttpGet("square-root/{firstNumber}")]
         public IActionResult GetSquareRoot(string firstNumber)
         {
             if (IsNumeric(firstNumber))
